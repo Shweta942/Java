@@ -108,7 +108,8 @@ class Bank{
 								break;
 							case 0:
 								System.out.println("Exit...");
-								choice1 = 0;
+								mainChoice = mainMenu();
+								//choice1 = 0;
 								break;
 							default:
 								System.out.println("Invalid input!");
@@ -138,7 +139,8 @@ class Bank{
 								break;
 							case 0:
 								System.out.println("Exit...");
-								choice2 = 0;
+								mainChoice = mainMenu();
+								//choice2 = 0;
 								break;
 							default:
 								System.out.println("Invalid input!");
@@ -150,7 +152,8 @@ class Bank{
 					break;
 				case 0:
 					System.out.println("Exit...");
-					mainChoice = 0;
+					System.exit(0);
+					//mainChoice = 0;
 					break;
 				default:
 					System.out.println("Invalid input!");
